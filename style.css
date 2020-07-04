@@ -1,0 +1,258 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #e1e9ee;
+}
+
+.navbar {
+    /* border: 2px solid red;  */
+    height: 52px;
+    background-color: #283e4a;
+    /* background-color: yellow; */
+    width: 40%;
+    margin: 0px 278px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    padding: 6px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin: 10px 10px 10px 0px;
+    height: 34px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.search {
+    display: flex;
+    height: 34px;
+    margin: 10px 14px;
+    padding: 4px 8px;
+    background-color: #e1e9ee;
+    border-radius: 3px;
+}
+
+.search-icon {
+    padding: 5px 0px;
+}
+
+.search-icon img {
+    height: 16px;
+    width: 17px;
+}
+
+.scanner {
+    padding: 5px 0px;
+}
+
+.scanner img {
+    height: 16px;
+    width: 17px;
+}
+
+.input-tag input {
+    background-color: #e1e9ee;
+    width: 328px;
+    border-radius: 2px;
+    padding: 0 8px 0 6px;
+    line-height: 1.75;
+    color: rgba(40, 62, 74, .75);
+    font-size: 17px;
+    border: transparent;
+}
+
+.right-nav img {
+    height: 66px;
+    margin-top: -6px;
+    margin: -6px 10px 0px 6px;
+    width: 33px;
+}
+
+/* CARDS */
+
+.wall-body {
+    display: flex;
+    width: 521px;
+    margin: 0px 271px;
+}
+
+.account-wall-body {
+    position: relative;
+    width: 597px;
+    margin: 3px 6px;
+    background-color: white;
+}
+
+.cards {
+    border: 1px solid rgb(132, 143, 132);
+    border-radius: 2px;
+    box-shadow: 0px 15px 17px -13px #4f4949;
+    background-color: #fff;
+}
+
+.card-2 {
+    margin-top: 6px;
+}
+
+.notifications {
+    padding: 10px 11px;
+    font-size: 19px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.info p {
+    color: gray;
+}
+
+.left-header {
+    display: flex;
+}
+
+.right-header {
+    display: flex;
+    padding: 14px;
+}
+
+.caption p {
+    padding: 11px;
+}
+
+.image img {
+    height: 474px;
+    width: 519px;
+}
+
+.follow-image img {
+    height: 17px;
+    width: 20px;
+}
+
+.follow-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.follow-text p {
+    color: #0073B1;
+    font-weight: 700;
+}
+
+.card-logo img {
+    height: 50px;
+    width: 39px;
+    margin: 0px 8px 0px 0px;
+}
+
+.react-buttons {
+    padding: 2px 21px;
+}
+
+.react-buttons ul {
+    display: flex;
+}
+
+.react-buttons ul li {
+    list-style: none;
+    margin: 2px 13px;
+    line-height: 21px;
+    display: flex;
+}
+
+.react-buttons p {
+    font-size: 11px;
+    color: #6c6767;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.react-buttons li img {
+    height: 18px;
+    width: 20px;
+    margin: 0px 3px;
+}
+
+.react-btn {
+    background: transparent;
+    border: none;
+}
+
+.card-2 .card-logo img {
+    border-radius: 50%;
+    border-radius: 50%;
+    width: 46px;
+}
+
+/* DROP DOWN */
+
+.menu p {
+    color: grey;
+    font-size: 15px;
+}
+
+.menu h3 {
+    font-size: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.follow-btn img:hover .dropdown-content {
+    display: block;
+  }
+
+/* FOOTER  STYLING */
+
+footer {
+    position: relative;
+    width: 521px;
+    margin: 0px 278px;
+    /* border: 1px solid blue; */
+    background-color: white;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li img {
+    width: 48px;
+    height: 31px;
+}
